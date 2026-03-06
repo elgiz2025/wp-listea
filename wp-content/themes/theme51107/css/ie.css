@@ -1,0 +1,42 @@
+body #motopress-main.main-holder #content form select, body #motopress-main.main-holder #container form select { max-width: none; }
+
+.woocommerce img, .woocommerce-page img { max-width: none !important; }
+
+#sidebar .featured-thumbnail img {
+    width: 100%;
+    max-width: none!important;
+}
+
+.ie8 header.header .search-form__h .navbar-form .search-form_it {
+	width: 80px;
+}
+.ie8 .nav__primary .sf-menu {
+	float: right;
+}
+.ie8 .nav__primary .sf-menu > li > a {
+	padding: 21px 5px 20px;
+	font-size: 12px;
+}
+
+.ie8 .custom_banners .custom_banners_wrap_inner .banner-wrap {
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+.ie8 .custom_banners .custom_banners_wrap_inner .banner-wrap .featured-thumbnail {
+	overflow: hidden;
+	display: block;
+	float: left;
+}
+.ie8 .custom_banners .custom_banners_wrap_inner .banner-wrap .featured-thumbnail img {
+	width: 300px;
+	display: block;
+	float: left;
+	max-width: inherit !important;
+}
+.ie8 .custom_banners .custom_banners_wrap_inner .banner-wrap .extra-wrap h5 {
+	font-size: 15px;
+}
+.ie8 .testimonials .testi-item .testi-meta {
+	margin: 0;
+}
